@@ -1,0 +1,23 @@
+denormolization
+Normalization aims to simplify maximum form of tables that are independently
+responsible for each data subject area
+
+denormolizations is the combination of normalized tables into one for 
+example coming up with one table that has all the information that is
+ frequently accessed
+Consequently, target tables not only contains data relevant to it but 
+also information from other tables
+
+
+Advantages of denormalization
+->Increased query execution speed
+->Writing queries is much easier
+->Ability to add aggregate data, which can be used for efficient reporting
+->Reduction of number of tables in a relational database
+
+Disadvantages of denormalization
+->Increased processing size
+->Increased table sizes
+->Increased costs of updating tables and inserts
+->Data may be inconsistent
+->
